@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
+import SiteMap from "@/components/SiteMap";
 import { Lightbulb, DollarSign, Code } from "lucide-react";
 
 const Index = () => {
@@ -53,6 +54,8 @@ const Index = () => {
           </div>
         </div>
       </main>
+      
+      <SiteMap />
     </div>
   );
 };
